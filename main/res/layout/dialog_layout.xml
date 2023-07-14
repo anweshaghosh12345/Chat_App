@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_180sdp"
+    android:layout_margin="@dimen/_10sdp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@drawable/shape_dialog">
+
+    <ImageView
+
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/logout"/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/darkblue"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/spartan_regular"
+        android:textSize="@dimen/_15sdp"
+        android:text="Are you sure want \n Log Out?"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/noBtm"
+            android:layout_weight="1"
+            android:text="No"
+            android:textSize="@dimen/_14sdp"
+            android:background="@drawable/shape_dialog"
+            android:textColor="@color/white"
+            android:backgroundTint="#011059"
+            android:gravity="center"
+
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_width="match_parent"
+
+            android:layout_height="@dimen/_26sdp"/>
+
+        <TextView
+            android:id="@+id/yesBtn"
+            android:layout_weight="1"
+            android:text="Yes"
+            android:layout_margin="@dimen/_10sdp"
+            android:textSize="@dimen/_14sdp"
+            android:background="@drawable/shape_dialog"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/colorPrimary"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_26sdp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

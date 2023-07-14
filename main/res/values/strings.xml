@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Chats</string>
+    <string name="appname">Chats . .</string>
+    <string name="connect">Connect with your friends online and Chat with your favourite person . .</string>
+    <string name="from">From:</string>
+    <string name="my_name">Anwesha . .</string>
+    <string name="email_phone">email address</string>
+    <string name="password">password</string>
+    <string name="sign_in">sign in</string>
+    <string name="new_user">Are you a new user?</string>
+    <string name="sign_up">sign up</string>
+    <string name="username">username</string>
+
+
+</resources>
